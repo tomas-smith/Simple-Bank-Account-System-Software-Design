@@ -12,3 +12,21 @@ The Customer class initializes a test profile to see if the system will act out 
  
 BankTestDriver also provides a calculation of Probality of Failure on Demand (PODOF), with expectations to return a low rate. 
 
+examples of expected outcomes from BankTestOracle:
+
+TEST CASE                EXPECTED RESULTS:
+myCustomer = 1
+name Bob Freedompants    End Balance: 102
+int Balance = 100        Print: “Thank you for using the bank!”
+int Deposit =2
+
+
+myCustomer =2
+name Bob Freedompants    End Balance: 104
+int Balance =100         Print: “Thank you for using the bank!”
+int Deposit =4
+
+myCustomer =2
+name Bob Freedompants   End Balance: 100
+int Balance =100        Print: “Sorry that is not a valid choice!”
+int Deposit =HUNDRED
