@@ -14,19 +14,32 @@ BankTestDriver also provides a calculation of Probality of Failure on Demand (PO
 
 examples of expected outcomes from BankTestOracle:
 
-TEST CASE                EXPECTED RESULTS:
+             
 myCustomer = 1
-name Bob Freedompants    End Balance: 102
-int Balance = 100        Print: “Thank you for using the bank!”
+name Bob Freedompants    
+int Balance = 100        
 int Deposit =2
 
+EXPECTED RESULTS:
+End Balance: 102
+Print: “Thank you for using the bank!”
 
+  
 myCustomer =2
-name Bob Freedompants    End Balance: 104
-int Balance =100         Print: “Thank you for using the bank!”
+name Bob Freedompants    
+int Balance =100         
 int Deposit =4
 
+EXPECTED RESULTS:
+End Balance: 104
+Print: “Thank you for using the bank!”
+
+
 myCustomer =2
-name Bob Freedompants   End Balance: 100
-int Balance =100        Print: “Sorry that is not a valid choice!”
+name Bob Freedompants   
+int Balance =100        
 int Deposit =HUNDRED
+
+EXPECTED RESULTS:
+End Balance: 100
+Print: “Sorry that is not a valid choice!”
